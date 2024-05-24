@@ -5,10 +5,10 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Screenshot ![FinalReult](image.png)
 
 ### Links
-- Solution URL: [Add solution URL here](https://github.com/AngelaPetreska/Recipe-page)
-- Live Site URL: [Add live site URL here](https://angelapetreska.github.io/Recipe-page/)
+- Solution URL: (https://github.com/AngelaPetreska/Recipe-page)
+- Live Site URL: (https://angelapetreska.github.io/Recipe-page/)
 
 
 ## Author
-- Website - [Angela Petreska](https://github.com/AngelaPetreska)
-- Frontend Mentor - [@AngelaPetreska](https://www.frontendmentor.io/profile/AngelaPetreska)
+- GitHub profile - [Angela Petreska] (https://github.com/AngelaPetreska)
+- Frontend Mentor profile - [@AngelaPetreska] (https://www.frontendmentor.io/profile/AngelaPetreska)
