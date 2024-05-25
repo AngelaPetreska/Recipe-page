@@ -8,6 +8,17 @@
     src: url(./assets/fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
+:root {
+--nutmeg: hsl(14, 45%, 36%);
+--dark-raspberry: hsl(332, 51%, 32%);
+--white: hsl(0, 0%, 100%);
+--rose-white: hsl(330, 100%, 98%);
+--eggshell: hsl(30, 54%, 90%);
+--light-gey: hsl(30, 18%, 87%);
+--wenge-brown: hsl(30, 10%, 34%);
+--dark-charcoal: hsl(24, 5%, 18%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,20 +36,20 @@ ol {
 }
 
 body {
-    background-color:  hsl(30, 54%, 90%);
+    background-color: var(--eggshell);
 }
 
 h1, 
 h2 {
     font-family: youngserif;
-    color:hsl(14, 45%, 36%);
+    color: var(--nutmeg);
     letter-spacing: 0.05rem;
 }
 
 p,
 li {
     line-height: 1.6;
-    color: hsl(30, 10%, 34%);
+    color: var(--wenge-brown);
 }
 
 li {
@@ -46,9 +57,9 @@ li {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 700px;
     margin-inline: auto;
-    background-color: #fff;
+    background-color: var(--white);
 }
 
 .container div:not(first-child) {
@@ -57,23 +68,25 @@ li {
 
 .banner h1 {
     margin-bottom: 1rem;
+    color: var(--dark-charcoal);
+    font-weight: 400;
 }
 
 .banner article {
-    background-color: hsl(330, 100%, 98%);
+    background-color: var(--rose-white);
     padding: 1.5rem;
     border-radius: 0.5 rem;
     margin-top: 1.5rem;
 }
 
 .banner article h3 {
-    color: hsl(332, 51%, 32%);
+    color: var(--dark-raspberry);
     margin-bottom: 0.5rem;
 }
 
 .instructions {
-    border-top: 1px solid hsl(30, 18%, 87%);
-    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-top: 1px solid var(--light-gey);
+    border-bottom: 1px solid var(--light-gey);
 }
 
 .nutrition-steps .value {
@@ -83,8 +96,7 @@ li {
 .nutrition-steps .item {
     padding: 0.75rem 2rem;
     display: flex;
-    transition: all 200ms ease;
-    border-bottom: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid var(--light-gey);
 }
 
 .nutrition-table .item:last-child {
@@ -92,7 +104,7 @@ li {
 }
 
 .nutrition-table .item p:nth-child(2){
-    color: hsl(14, 45%, 36%);
+    color: var(--nutmeg);
     font-weight: 700;
 }
 
@@ -122,7 +134,6 @@ li {
 
     .banner h1 {
         font-size: 2rem;
-        color: hsl(24, 5%, 18%);
     }
 
     img {
